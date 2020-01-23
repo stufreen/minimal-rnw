@@ -9,9 +9,19 @@
   "author": "stu freen",
   "license": "ISC",
   "dependencies": {
-    "parcel-bundler": "^1.12.4",
+    "http-server": "^0.12.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-native-web": "^0.12.0-rc.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.3",
+    "@babel/core": "^7.8.3",
+    "@babel/runtime": "^7.8.3",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-react-native-web": "^0.12.0-rc.1",
+    "metro-react-native-babel-preset": "^0.58.0",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
   }
 }
